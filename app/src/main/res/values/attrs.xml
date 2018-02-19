@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AvatarImageBehavior">
+        <attr name="finalYPosition" format="dimension" />
+        <attr name="startXPosition" format="dimension" />
+        <attr name="startToolbarPosition" format="dimension" />
+        <attr name="startHeight" format="dimension" />
+        <attr name="finalHeight" format="dimension" />
+    </declare-styleable>
+
+    <!-- colors -->
+    <color name="primary">#785447</color>
+    <color name="primaryDark">#5B3F36</color>
+
+    <!-- dimensions -->
+    <dimen name="image_width">120dp</dimen>
+    <dimen name="image_final_width">32dp</dimen>
+    <dimen name="spacing_normal">16dp</dimen>
+
+    <!-- styles -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primaryDark</item>
+    </style>
+
+    <!-- strings -->
+    <string name="app_name">Coordinator example</string>
+    <string name="quila_name">Quila</string>
+    <string name="quila_tagline">I love bones and slippers</string>
+    <string name="quila_name2">Quila!</string>
+
+</resources>
